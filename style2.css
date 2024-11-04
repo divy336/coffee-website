@@ -1,0 +1,454 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: white;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 700px;
+        margin-top: 0;
+        margin: auto;
+        background: rgb(221, 213, 213);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .bvideo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        filter: brightness(50%);
+        -webkit-filter: brightness(50%);
+    }
+    
+    h1,
+    h2 {
+        color: #333;
+    }
+    
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 10px;
+    }
+    
+    button {
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: black;
+        text-decoration: underline;
+    }
+    
+    .name1 {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .name1:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #name2 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    #name2:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    .email1 {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .email1:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #email2 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    #email2:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    .phone1 {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .phone1:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #phone2 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    #phone2:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    .coffee-type1 {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .coffee-type1:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #coffee-type2:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    #coffee-type2 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .card-number {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    #card-number1 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .card-number:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #card-number1:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    .expiry-date {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #expiry-date1 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .cvv {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    #cvv1 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .cvv:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #cvv1:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    .bank-name {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    #bank-name1 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .bank-name:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #bank-name1:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    .account-number {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    #account-number1 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .account-number:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #account-number1:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    .routing-number {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    #routing-number1 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .routing-number:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #routing-number1:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    .gift-card-number {
+        font-size: 20px;
+        color: black;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    .gift-card-number:hover {
+        text-decoration: underline 3px green;
+        font-size: 15px;
+    }
+    
+    #gift-card-number1 {
+        width: 90%;
+        transition: 0.7s ease;
+        -webkit-transition: 0.7s ease;
+        -moz-transition: 0.7s ease;
+        -ms-transition: 0.7s ease;
+        -o-transition: 0.7s ease;
+    }
+    
+    #gift-card-number1:hover {
+        width: 90%;
+        border-radius: 40%;
+        -webkit-border-radius: 40%;
+        -moz-border-radius: 40%;
+        -ms-border-radius: 40%;
+        -o-border-radius: 40%;
+        border-color: black;
+        box-shadow: 2px 2px 2px white;
+    }
+    
+    .submit {
+        margin-left: 38%;
+        margin-top: 30px;
+        width: 25%;
+        height: 4vh;
+    }

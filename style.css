@@ -1,0 +1,518 @@
+/* Global Styles */
+
+body {}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url(coffe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.home {
+    display: inline-block;
+    font-size: 40px;
+    padding-right: 600px;
+    color: rgb(151, 38, 38);
+    font-weight: 600;
+    padding-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    animation: move 6s ease infinite;
+    -webkit-animation: move 6s ease infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translatey(0);
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -ms-transform: translatey(0);
+        -o-transform: translatey(0);
+    }
+    40% {
+        transform: translatey(-20%);
+        -webkit-transform: translatey(-20%);
+        -moz-transform: translatey(-20%);
+        -ms-transform: translatey(-20%);
+        -o-transform: translatey(-20%);
+    }
+}
+
+nav {
+    display: inline-block;
+    margin-right: 20px;
+    color: rgb(230, 151, 151);
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+nav ul li a {
+    color: rgb(170, 29, 29);
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 120px;
+    font-size: 25px;
+    color: brown;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+@keyframes ani2 {
+    0% {
+        margin-right: -350%;
+    }
+    50% {
+        margin-right: 20%;
+    }
+}
+
+.s1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: rgb(216, 86, 86);
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    animation: ani 6s ease;
+    -webkit-animation: ani 6s ease;
+}
+
+.s1:hover {
+    color: brown;
+}
+
+.s2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    animation: ani 7s ease;
+    -webkit-animation: ani 7s ease;
+}
+
+.main2 {
+    text-align: center;
+    margin-top: 300px;
+    color: rgba(184, 23, 23, 0.733);
+}
+
+.submain {
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: rgba(184, 23, 23, 0.733);
+    transition: 0.4s ease-in;
+    -webkit-transition: 0.4s ease-in;
+    -moz-transition: 0.4s ease-in;
+    -ms-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+    animation: ani 5s ease;
+    -webkit-animation: ani 5s ease;
+}
+
+.submain:hover {
+    color: brown;
+}
+
+@keyframes ani {
+    0% {
+        margin-right: -350%;
+    }
+    50% {
+        margin-right: 20%;
+    }
+}
+
+.line {
+    color: brown;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.line2 {
+    color: rgb(204, 29, 29);
+    margin-top: -10px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.button1 {
+    background-color: rgb(182, 22, 22);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/* Header */
+
+
+/* Hero Section */
+
+.coffee1 {
+    align-items: center;
+    background-size: cover;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+}
+
+.explore {
+    width: 100%;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -10px;
+    color: rgb(163, 66, 30);
+    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+    animation: ani 6s ease infinite;
+    -webkit-animation: ani 6s ease infinite;
+}
+
+.explore:hover {
+    color: rgb(58, 21, 8);
+    text-shadow: 3px 3px 3px rgb(163, 66, 30);
+}
+
+.manu1 {
+    margin-left: 30px;
+    padding-left: 70px;
+    margin-right: 60px;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s ease;
+    background-image: url(coffee-background-vector-467541.jpg);
+    height: 70vh;
+    width: 30%;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.manu1 p {
+    padding-right: 50px;
+}
+
+.manu2 {
+    padding-left: 70px;
+    margin-right: 40px;
+    font-size: 20px;
+    color: black;
+    transition: 0.5s ease;
+    background-image: url(coffee4.avif);
+    background-size: cover;
+    height: 70vh;
+    width: 33%;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.manu3 {
+    padding-left: 50px;
+    margin-right: 40px;
+    font-size: 20px;
+    color: black;
+    transition: 0.5s ease;
+    background-image: url(coffee5.jpeg);
+    background-size: cover;
+    justify-content: center;
+    height: 70vh;
+    width: 30%;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+h1 {
+    color: gray;
+    padding-bottom: 60px;
+    font-size: 30px;
+    padding-top: 20px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+h1:hover {
+    color: white;
+    text-shadow: 5px 5px 5px gray;
+}
+
+.manu1 p:hover {
+    color: orangered;
+    text-shadow: 5px 5px 5px gray;
+}
+
+.manu2 p:hover {
+    color: orangered;
+    text-shadow: 5px 5px 5px gray;
+}
+
+.manu3 p:hover {
+    color: orangered;
+    text-shadow: 5px 5px 5px gray;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url(image1coffee.jpg);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.container:hover {
+    box-shadow: 3px 12px 16px rgba(14, 13, 13, 0.2);
+}
+
+.feedback1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+    color: white;
+    margin-left: 0%;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+}
+
+.feedback1:hover {
+    text-shadow: 3px 3px 3px rgb(12, 6, 6);
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    word-break: break-all;
+    white-space: pre-wrap;
+    hyphens: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.butto2 {
+    width: 100%;
+    padding: 10px;
+    background-color: #c5acac;
+    color: transparent;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.butto2:hover {
+    background-color: #584e4e;
+    color: white;
+}
+
+#name {
+    background-color: transparent;
+    border: 20%;
+    color: white;
+    width: 90%;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+#yourname {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+#name:hover {
+    cursor: pointer;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+    border-color: black;
+    box-shadow: 3px 3px 3px white;
+}
+
+#youremail {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#email {
+    background-color: transparent;
+    width: 90%;
+    color: white;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+#email:hover {
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+    border-color: black;
+    box-shadow: 3px 3px 3px white;
+    cursor: pointer;
+}
+
+.rate {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#comments1 {
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#comments {
+    background-color: transparent;
+    width: 90%;
+    color: white;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+#comments:hover {
+    background-color: #584e4e;
+    color: white;
+}
+
+.button3 {
+    width: 30%;
+    margin-left: 30%;
+    color: white;
+    background-color: rgba(83, 26, 26, 0.479);
+    font-size: 15px;
+    height: 4vh;
+    font-weight: 400;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    margin-top: 40px;
+}
+
+.button3:hover {
+    background-color: rgb(230, 222, 222);
+    color: rgb(8, 6, 6);
+}
